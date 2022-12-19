@@ -182,7 +182,9 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
-        Sayeed\CustomMigrate\CustomMigrateServiceProvider::class,
+       // Sayeed\CustomMigrate\CustomMigrateServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
+        Sayeed\CrudFromDb\CrudFromDbServiceProvider::class,
 
 
         /*
@@ -212,6 +214,8 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
 

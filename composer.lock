@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86d9ab15c73b51859bdd8798b9c358b3",
+    "content-hash": "9e5c48eec55353df947f65f6d5512449",
     "packages": [
         {
             "name": "brick/math",
@@ -2894,6 +2894,59 @@
                 }
             ],
             "time": "2022-11-05T23:03:38+00:00"
+        },
+        {
+            "name": "sayeed/application-installer",
+            "version": "v0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jbhasan/Laravel-Application-Installer.git",
+                "reference": "60df06bcbc1d3cfb3095dcd413557d2c0543936e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jbhasan/Laravel-Application-Installer/zipball/60df06bcbc1d3cfb3095dcd413557d2c0543936e",
+                "reference": "60df06bcbc1d3cfb3095dcd413557d2c0543936e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "laravel/framework": "7.* | 8.*"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Sayeed\\ApplicationInstaller\\ApplicationInstallerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sayeed\\ApplicationInstaller\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Sayeed",
+                    "email": "jbhasan@gmail.com"
+                }
+            ],
+            "description": "Application Installer For User",
+            "keywords": [
+                "installer"
+            ],
+            "support": {
+                "issues": "https://github.com/jbhasan/Laravel-Application-Installer/issues",
+                "source": "https://github.com/jbhasan/Laravel-Application-Installer/tree/v0.4"
+            },
+            "time": "2021-08-01T07:11:43+00:00"
         },
         {
             "name": "sayeed/custom-migrate",
